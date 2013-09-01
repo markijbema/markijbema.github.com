@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-Today Henrik posted on his blog about [the dangers of memoization](http://thepugautomatic.com/2013/08/memoization-is-a-liability/). While I agree with the premise that there are dangers with memoization, I don't believe they are to blame on memoization. I added a comment, but I think my motivation for using memoization deserves a post of its own. But please read [Henrik's post](http://thepugautomatic.com/2013/08/memoization-is-a-liability/) first, as it makes an excellent point, and I think you should look at both sides of the issue.
+Today Henrik Nyh posted on his blog about [the dangers of memoization](http://thepugautomatic.com/2013/08/memoization-is-a-liability/). While I agree with the premise that there are dangers with memoization, I don't believe they are to blame on memoization. I added a comment, but I think my motivation for using memoization deserves a post of its own. But please read [Henrik's post](http://thepugautomatic.com/2013/08/memoization-is-a-liability/) first, as it makes an excellent point, and I think you should look at both sides of the issue.
 
 ## Why use memoization?
 
