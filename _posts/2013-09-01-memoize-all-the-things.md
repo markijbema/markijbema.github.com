@@ -57,7 +57,7 @@ Either way we're going to break compatibility with the current implementation, s
 
 I think you should only use memoization in immutable objects. Combining mutable objects with memoization opens up a world of pain. In my opinion, this is caused by the immutability though.
 
-Lets look at what happens if you add a setter for string to our Word class? The memoized version of Word is broken: it will always return the result based on the first string. But the non-memoized version is broken as well: do_something suddenly isn't thread safe anymore.
+Lets look at what happens if you add a setter for string to our Word class? The memoized version of Word is broken: it will always return the result based on the first string. **But the non-memoized version is broken as well**: `do_something` suddenly isn't thread safe anymore.
 
 To me, the latter feels more dangerous that former. Suddenly you have a program which only *sometimes* fail (in multiple ways), which your unit tests can (and probably will) miss, as opposed to a program which fails in a very predictable way.
 
